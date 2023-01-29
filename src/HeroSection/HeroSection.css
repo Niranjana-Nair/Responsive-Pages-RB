@@ -1,0 +1,117 @@
+.hero-image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.hero-container {
+    /* background: url('https://t3.ftcdn.net/jpg/03/15/63/68/240_F_315636829_7jZ9Vu4KCb2gU4CK2IOU1QtPhkCuLvjJ.jpg') center center/cover
+    no-repeat; */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    justify-content: center;
+}
+
+.join-pool-btn {
+    /* outline: none; */
+    /* border: none; */
+    /* background-color: var(--primary); */
+    /* color: #242424; */
+    /* border: 1px solid var(--primary); */
+    cursor: pointer;
+    padding: 8px 20px;
+    border-radius: 2px;
+    border: 1px solid white;
+    color: #fff;
+    background-color: transparent;
+    padding: 8px 20px;
+    transition: all 0.3s ease-out;
+    font-size: 20px;
+}
+
+.join-pool-btn:hover {
+    background: #fff;
+    color: #242424;
+    transition: all 0.3s ease-out;
+}
+
+.host-pool-btn {
+    /* outline: none; */
+    /* border: none; */
+    /* background-color: var(--primary); */
+    /* color: #242424; */
+    /* border: 1px solid var(--primary); */
+    border: 1px solid white;
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 20px;
+    border-radius: 2px;
+    background-color: transparent;
+    padding: 8px 20px;
+    transition: all 0.3s ease-out;
+    font-size: 20px;
+}
+
+.host-pool-btn:hover {
+    background: #fff;
+    color: #242424;
+    transition: all 0.3s ease-out;
+}
+
+.hero-container>h1 {
+    margin-top: -100px;
+    color: #fff;
+    font-size: 32px;
+}
+
+.hero-container>p {
+    color: #fff;
+    font-size: 10px;
+    margin-top: 8px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.hero-btns {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.hero-btns .btn {
+    margin: 6px;
+}
+
+@media screen and (max-width:960px) {
+    .hero-container>h1 {
+        font-size: 70px;
+        margin-top: -150px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .hero-container>h1 {
+        font-size: 50px;
+        margin-top: -100px;
+    }
+
+    .hero-container>p {
+        font-size: 30px;
+    }
+
+    .btn-mobile {
+        display: block;
+        text-decoration: none;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}

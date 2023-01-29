@@ -1,0 +1,168 @@
+.confirm-pool-details-card {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    height: 70vh;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    justify-content: center;
+}
+
+.confirm-pool-details-container {
+    height: calc(145vh - 50px);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url("https://t3.ftcdn.net/jpg/01/68/54/60/240_F_168546005_BWcoav11dNLrwy8cnCqmgkGCh9lsoHLp.jpg");
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    padding: 2px 16px;
+}
+
+.ride-host-img-name-id-start-end-points-date-time {
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+}
+
+.start-end-points-date-time {
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+}
+
+.start-Endpoints {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+
+.dateTime {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+
+.ride-host-Name {
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.ride-wheel-name {
+    text-transform: uppercase;
+    font-weight: 800;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
+
+.ride-wheel-number {
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
+
+.wheel-name-number-image {
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+}
+
+.selectSeats-dropoffLocations-riders {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.selectSeats {
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+}
+
+.select-multiple-dropoff-locations {
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+}
+
+.verify-pool-btn {
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
+
+.send-pool-request-btn {
+    cursor: pointer;
+    background-color: #478ac9;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.send-pool-request-btn:hover {
+    background-color: #5681a9;
+}
+
+.add-seat {
+    border: none;
+    background-color: green;
+    color: #ffff;
+}
+
+.delete-seat {
+    border: none;
+    background-color: red;
+    color: #ffff;
+}
+
+.add-seat:hover {
+    background-color: rgb(60, 108, 60);
+}
+
+.delete-seat:hover {
+    background-color: rgb(194, 57, 57);
+}
+
+.confirm-pool-title {
+    font-size: 25px;
+    color: #ffff;
+}
+
+@media screen and(max-width:820px) {
+    .confirm-pool-details-card{
+        width: max-content;
+        /* width:35%; */
+    }
+
+}
+@media screen and (max-width: 1024px) {
+    .confirm-pool-details-card {
+        width: 60%;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .confirm-pool-details-card {
+        width: max-content;
+    }
+
+}
+
+@media screen and (max-width: 540px) {
+    .confirm-pool-details-card {
+        width: fit-content;
+        justify-content: space-evenly;
+    }
+}

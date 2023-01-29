@@ -1,0 +1,92 @@
+.existing-user {
+    text-decoration: none;
+    color: #ffff;
+}
+
+.existing-user:hover {
+    color: #f1c50e;
+}
+
+.register {
+    /* height: calc(100vh - 50px); */
+    height: calc(145vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(255, 255, 255, 0.5),
+            rgba(255, 255, 255, 0.5)),
+        url("https://t4.ftcdn.net/jpg/02/66/45/45/240_F_266454581_p1Z8ZlxJITggt5OtcPKcaiZNt5Idhm0N.jpg");
+    background-size: cover;
+}
+
+.registerTitle {
+    font-size: 25px;
+    color: #478ac9;
+    /* color: #f1c50e */
+}
+
+.registerForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registerForm>label {
+    margin: 10px 0;
+    color: #ffff;
+}
+
+.registerInput {
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid #ffff;
+    /* background-color: white; */
+    /* border-radius: 10px; */
+    /* border: none; */
+}
+
+.registerInput:focus {
+    outline: none;
+}
+
+.registerButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #478ac9;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.registerButton:hover {
+    background-color: #527ca4;
+}
+
+.form-control {
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid #ffff;
+    /* background-color: white; */
+    /* border-radius: 10px; */
+    /* border: none; */
+}
+
+.dropdown-select {
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid #ffff;
+    /* background-color: white; */
+    /* border-radius: 10px; */
+    /* border: none; */
+}
+.form-control-file{
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid #ffff;
+    /* background-color: white; */
+    /* border-radius: 10px; */
+    /* border: none; */
+}
